@@ -3,6 +3,12 @@
     "name": "Theme settings",
     "settings": [
       {
+        "type": "text",
+        "id": "store_tagline",
+        "label": "Store Tagline",
+        "default": "The Best Fashion Store"
+      },
+      {
         "type": "image_picker",
         "id": "desktop_slider_image",
         "label": "Desktop Slider Image"
