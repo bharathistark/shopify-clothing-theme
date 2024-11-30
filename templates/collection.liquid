@@ -1,0 +1,11 @@
+<div class="collection-template">
+  <h1>{{ collection.title }}</h1>
+  <div>{{ collection.description }}</div>
+
+  {% for product in collection.products %}
+    <div class="product-item">
+      <h3>{{ product.title }}</h3>
+      <p>{{ product.metafields.custom.short_description }}</p>
+    </div>
+  {% endfor %}
+</div>

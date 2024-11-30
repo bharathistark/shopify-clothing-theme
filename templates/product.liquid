@@ -1,0 +1,13 @@
+<div class="product-template">
+  <h1>{{ product.title }}</h1>
+  <div>{{ product.description }}</div>
+
+  {% if product.metafields.custom.video_url %}
+    <div class="product-video">
+      <video controls>
+        <source src="{{ product.metafields.custom.video_url }}" type="video/mp4">
+        Your browser does not support the video tag.
+      </video>
+    </div>
+  {% endif %}
+</div>

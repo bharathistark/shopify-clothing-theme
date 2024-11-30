@@ -1,0 +1,26 @@
+<div class="slider">
+  <div class="desktop-slider">
+    <img src="{{ settings.desktop_slider_image | file_url }}">
+  </div>
+  <div class="mobile-slider">
+    <img src="{{ settings.mobile_slider_image | file_url }}">
+  </div>
+</div>
+
+{% schema %}
+{
+  "name": "Responsive Slider",
+  "settings": [
+    {
+      "type": "image_picker",
+      "id": "desktop_slider_image",
+      "label": "Desktop Image"
+    },
+    {
+      "type": "image_picker",
+      "id": "mobile_slider_image",
+      "label": "Mobile Image"
+    }
+  ]
+}
+{% endschema %}

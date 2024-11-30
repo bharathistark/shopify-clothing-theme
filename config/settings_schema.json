@@ -1,0 +1,17 @@
+[
+  {
+    "name": "Theme settings",
+    "settings": [
+      {
+        "type": "image_picker",
+        "id": "desktop_slider_image",
+        "label": "Desktop Slider Image"
+      },
+      {
+        "type": "image_picker",
+        "id": "mobile_slider_image",
+        "label": "Mobile Slider Image"
+      }
+    ]
+  }
+]

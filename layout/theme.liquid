@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>{{ page_title }}</title>
+  <link rel="stylesheet" href="{{ 'theme.css' | asset_url }}">
+</head>
+<body>
+  {{ content_for_header }}
+  <main>
+    {{ content_for_layout }}
+  </main>
+  <script src="{{ 'custom.js' | asset_url }}"></script>
+</body>
+</html>
